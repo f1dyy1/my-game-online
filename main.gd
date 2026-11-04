@@ -1,7 +1,7 @@
 extends Node2D
 
 # После запуска сервера на Render впиши сюда его адрес (Этап Б).
-const SERVER_URL := "ws://127.0.0.1:7777"
+const SERVER_URL := "wss://my-game-online.onrender.com"
 const SPEED := 350.0
 
 var players := {}            # id игрока -> его квадрат
